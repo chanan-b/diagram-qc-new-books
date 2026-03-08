@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="Part A — Flowchart" id="oGko7cM0hzIlvneeH8Zu">
-    <mxGraphModel dx="1158" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="992" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,10 +11,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-2" parent="1" style="strokeWidth=5;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=light-dark(#60A917,#FF0080);strokeColor=light-dark(#2D7600,#3333FF);fontColor=#ffffff;gradientColor=default;fontFamily=Comic Sans MS;" value="&lt;b&gt;START&lt;/b&gt;" vertex="1">
-          <mxGeometry height="60" width="100" x="10" y="395" as="geometry" />
+          <mxGeometry height="60" width="88" x="10" y="395" as="geometry" />
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-3" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#3333FF);fontColor=light-dark(#FFFFFF,#33FF33);strokeColor=light-dark(#3700CC,#33FF33);strokeWidth=5;fontFamily=Comic Sans MS;fontSize=15;" value="&lt;span style=&quot;text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;User Clicks &quot;Post Entry&quot;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="170" y="395" as="geometry" />
+          <mxGeometry height="60" width="120" x="130" y="395" as="geometry" />
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-8" edge="1" parent="1" source="td1cuY7okfjkKUuHATiC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="td1cuY7okfjkKUuHATiC-7">
           <mxGeometry relative="1" as="geometry" />
@@ -25,19 +25,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-5" parent="1" style="strokeWidth=5;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#FFFF66);strokeColor=light-dark(#000000,#FFB366);fontFamily=Comic Sans MS;fontSize=14;" value="&lt;span style=&quot;color: rgb(0, 245, 255); text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;Are All Fields Filled In?&lt;/span&gt;" vertex="1">
-          <mxGeometry height="125" width="130" x="340" y="363" as="geometry" />
+          <mxGeometry height="125" width="130" x="290" y="363" as="geometry" />
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-6" edge="1" parent="1" source="td1cuY7okfjkKUuHATiC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="td1cuY7okfjkKUuHATiC-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="td1cuY7okfjkKUuHATiC-10" edge="1" parent="1" source="td1cuY7okfjkKUuHATiC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="td1cuY7okfjkKUuHATiC-3">
+        <mxCell id="td1cuY7okfjkKUuHATiC-32" edge="1" parent="1" source="td1cuY7okfjkKUuHATiC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="td1cuY7okfjkKUuHATiC-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-7" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillColor=#e3c800;fontColor=#000000;strokeColor=light-dark(#B09500,#FF8000);strokeWidth=5;fontFamily=Comic Sans MS;fontSize=15;align=center;" value="&lt;div style=&quot;&quot;&gt;Error: Missing Fields&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="130" x="340" y="540" as="geometry" />
+          <mxGeometry height="80" width="130" x="290" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="td1cuY7okfjkKUuHATiC-15" edge="1" parent="1" source="td1cuY7okfjkKUuHATiC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="td1cuY7okfjkKUuHATiC-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="td1cuY7okfjkKUuHATiC-17" connectable="0" parent="td1cuY7okfjkKUuHATiC-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontFamily=Comic Sans MS;fontColor=light-dark(#000000,#FF0000);" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.1896" y="-2" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-11" parent="1" style="strokeWidth=5;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#FFFF66);strokeColor=light-dark(#000000,#FFB366);fontFamily=Comic Sans MS;fontSize=15;align=center;" value="&lt;span style=&quot;color: rgb(0, 245, 255); font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;Is the Amount Greater Than Zero?&lt;/span&gt;" vertex="1">
-          <mxGeometry height="134.5" width="140" x="550" y="358.25" as="geometry" />
+          <mxGeometry height="134.5" width="140" x="480" y="358" as="geometry" />
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-12" edge="1" parent="1" source="td1cuY7okfjkKUuHATiC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="td1cuY7okfjkKUuHATiC-11">
           <mxGeometry relative="1" as="geometry" />
@@ -46,6 +54,47 @@
           <mxGeometry relative="1" x="-0.1519" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="td1cuY7okfjkKUuHATiC-30" edge="1" parent="1" source="td1cuY7okfjkKUuHATiC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="td1cuY7okfjkKUuHATiC-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="650" />
+              <mxPoint x="190" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="td1cuY7okfjkKUuHATiC-14" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillColor=#e3c800;fontColor=#000000;strokeColor=light-dark(#B09500,#FF8000);strokeWidth=5;fontFamily=Comic Sans MS;fontSize=15;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13.192px; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 245, 255), rgb(255, 255, 255));&quot;&gt;Error: Invalid Amount&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="485" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="td1cuY7okfjkKUuHATiC-27" edge="1" parent="1" source="td1cuY7okfjkKUuHATiC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="td1cuY7okfjkKUuHATiC-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="td1cuY7okfjkKUuHATiC-28" connectable="0" parent="td1cuY7okfjkKUuHATiC-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0)); font-size: 14px;&quot;&gt;No&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2711" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="td1cuY7okfjkKUuHATiC-22" parent="1" style="strokeWidth=5;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#FFFF66);strokeColor=light-dark(#000000,#FFB366);fontFamily=Comic Sans MS;fontSize=14;" value="&lt;span style=&quot;color: rgb(0, 245, 255); text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;Do Total Debits Equal Total Credits?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="125" width="130" x="680" y="363" as="geometry" />
+        </mxCell>
+        <mxCell id="td1cuY7okfjkKUuHATiC-23" edge="1" parent="1" source="td1cuY7okfjkKUuHATiC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="td1cuY7okfjkKUuHATiC-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="td1cuY7okfjkKUuHATiC-24" connectable="0" parent="td1cuY7okfjkKUuHATiC-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 15px; color: light-dark(rgb(0, 0, 0), rgb(0, 204, 0));&quot;&gt;Yes&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0055" y="2" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="td1cuY7okfjkKUuHATiC-29" edge="1" parent="1" source="td1cuY7okfjkKUuHATiC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="td1cuY7okfjkKUuHATiC-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="745" y="690" />
+              <mxPoint x="160" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="td1cuY7okfjkKUuHATiC-26" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillColor=#e3c800;fontColor=#000000;strokeColor=light-dark(#B09500,#FF8000);strokeWidth=5;fontFamily=Comic Sans MS;fontSize=15;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13.192px; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 245, 255), rgb(255, 255, 255));&quot;&gt;Error: Out of Balance&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="680" y="540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
