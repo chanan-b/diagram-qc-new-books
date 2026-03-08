@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="Part A — Flowchart" id="oGko7cM0hzIlvneeH8Zu">
-    <mxGraphModel dx="1226" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="906" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,7 +25,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-5" parent="1" style="strokeWidth=5;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#FFFF66);strokeColor=light-dark(#000000,#FFB366);fontFamily=Comic Sans MS;fontSize=14;" value="&lt;span style=&quot;color: rgb(0, 245, 255); text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;Are All Fields Filled In?&lt;/span&gt;" vertex="1">
-          <mxGeometry height="125" width="130" x="290" y="363" as="geometry" />
+          <mxGeometry height="125" width="130" x="280" y="363" as="geometry" />
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-6" edge="1" parent="1" source="td1cuY7okfjkKUuHATiC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="td1cuY7okfjkKUuHATiC-5">
           <mxGeometry relative="1" as="geometry" />
@@ -34,7 +34,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-7" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillColor=#e3c800;fontColor=#000000;strokeColor=light-dark(#B09500,#FF8000);strokeWidth=5;fontFamily=Comic Sans MS;fontSize=15;align=center;" value="&lt;div style=&quot;&quot;&gt;Error: Missing Fields&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="130" x="290" y="540" as="geometry" />
+          <mxGeometry height="80" width="130" x="280" y="540" as="geometry" />
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-15" edge="1" parent="1" source="td1cuY7okfjkKUuHATiC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="td1cuY7okfjkKUuHATiC-14">
           <mxGeometry relative="1" as="geometry" />
@@ -45,7 +45,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-11" parent="1" style="strokeWidth=5;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#FFFF66);strokeColor=light-dark(#000000,#FFB366);fontFamily=Comic Sans MS;fontSize=15;align=center;" value="&lt;span style=&quot;color: rgb(0, 245, 255); font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;Is the Amount Greater Than Zero?&lt;/span&gt;" vertex="1">
-          <mxGeometry height="134.5" width="140" x="480" y="358" as="geometry" />
+          <mxGeometry height="134.5" width="140" x="460" y="358" as="geometry" />
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-12" edge="1" parent="1" source="td1cuY7okfjkKUuHATiC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="td1cuY7okfjkKUuHATiC-11">
           <mxGeometry relative="1" as="geometry" />
@@ -64,7 +64,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-14" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillColor=#e3c800;fontColor=#000000;strokeColor=light-dark(#B09500,#FF8000);strokeWidth=5;fontFamily=Comic Sans MS;fontSize=15;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13.192px; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 245, 255), rgb(255, 255, 255));&quot;&gt;Error: Invalid Amount&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="130" x="485" y="540" as="geometry" />
+          <mxGeometry height="80" width="130" x="465" y="540" as="geometry" />
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-27" edge="1" parent="1" source="td1cuY7okfjkKUuHATiC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="td1cuY7okfjkKUuHATiC-26">
           <mxGeometry relative="1" as="geometry" />
@@ -83,7 +83,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-22" parent="1" style="strokeWidth=5;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#FFFF66);strokeColor=light-dark(#000000,#FFB366);fontFamily=Comic Sans MS;fontSize=14;" value="&lt;span style=&quot;color: rgb(0, 245, 255); text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;Do Total Debits Equal Total Credits?&lt;/span&gt;" vertex="1">
-          <mxGeometry height="125" width="130" x="680" y="363" as="geometry" />
+          <mxGeometry height="125" width="130" x="640" y="363" as="geometry" />
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-23" edge="1" parent="1" source="td1cuY7okfjkKUuHATiC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="td1cuY7okfjkKUuHATiC-22">
           <mxGeometry relative="1" as="geometry" />
@@ -102,10 +102,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-26" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillColor=#e3c800;fontColor=#000000;strokeColor=light-dark(#B09500,#FF8000);strokeWidth=5;fontFamily=Comic Sans MS;fontSize=15;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13.192px; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 245, 255), rgb(255, 255, 255));&quot;&gt;Error: Out of Balance&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="130" x="680" y="540" as="geometry" />
+          <mxGeometry height="80" width="130" x="650" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="td1cuY7okfjkKUuHATiC-37" edge="1" parent="1" source="td1cuY7okfjkKUuHATiC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="td1cuY7okfjkKUuHATiC-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="td1cuY7okfjkKUuHATiC-33" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#3333FF);fontColor=light-dark(#FFFFFF,#33FF33);strokeColor=light-dark(#3700CC,#33FF33);strokeWidth=5;fontFamily=Comic Sans MS;fontSize=15;" value="&lt;span style=&quot;text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;Save Entry to Database&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="860" y="395" as="geometry" />
+          <mxGeometry height="60" width="120" x="820" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="td1cuY7okfjkKUuHATiC-36" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#3333FF);fontColor=light-dark(#FFFFFF,#33FF33);strokeColor=light-dark(#3700CC,#33FF33);strokeWidth=5;fontFamily=Comic Sans MS;fontSize=13;" value="&lt;span style=&quot;text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;Clear Form &amp;amp; Refresh Register&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="980" y="395.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
